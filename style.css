@@ -1,0 +1,36 @@
+.div{
+    width: 200px;
+    height: 200px;
+    margin-top: 200px;
+    margin-left: 350px;
+    animation: box 2s infinite;
+}   
+
+@keyframes box {
+    0%{
+        transform: translate(0px, 0px);
+        background-color: #ff9898;
+    }
+
+    25%{
+        transform: translate(300px, 0px);
+        background-color: #f361e9;
+    }
+
+    50%{
+        transform: translate(300px, 300px);
+        background-color: #86ff05;
+    }
+
+
+    75%{
+        transform: translate(0px, 300px);
+        background-color: #f1ff56;
+    }
+
+
+    100%{
+        transform: translate(0px, 0px);
+        background-color: #ff9898;
+    }
+}
